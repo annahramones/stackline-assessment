@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
             <span className="sr-only">Stackline</span>
             <img
               alt=""
-              src="/src/assets/stackline_logo.svg"
+              src={`${import.meta.env.BASE_URL}stackline_logo.svg`}
               className="h-8 w-auto"
             />
           </a>
